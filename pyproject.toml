@@ -1,0 +1,12 @@
+[project]
+name = "automobile-ia-regression-pytorch"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "pandas>=3.0.2",
+    "tensorboard>=2.20.0",
+    "torch>=2.11.0",
+]
