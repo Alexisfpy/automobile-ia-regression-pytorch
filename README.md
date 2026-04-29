@@ -25,6 +25,7 @@ AUTOMOBILE-IA-REGRESSION-PYTORCH/
 │   ├── runs/                       # Logs de entrenamiento para TensorBoard
 │   ├── scaler/                     # Archivos del StandardScaler guardado
 │   └── red_neuronal_automobile.ipynb # Notebook principal con el desarrollo
+├── LICENSE                         # Licencia MIT
 ├── pyproject.toml                  # Configuración de dependencias del proyecto
 ├── README.md                       # Documentación del proyecto
 ```
@@ -55,6 +56,13 @@ Para lograr los resultados actuales, se utilizaron los siguientes hiperparámetr
 El rendimiento del modelo se valida comparando la pérdida de entrenamiento frente a la de validación. 
 - **Consistencia:** Gracias al Dropout, la brecha entre ambas curvas es mínima, lo que indica un entrenamiento equilibrado.
 - **Precisión:** Tras activar el modo de evaluación, el modelo sitúa la gran mayoría de sus predicciones dentro de un **margen de error del 15%** respecto al precio real del vehículo.
+
+<br>
+
+<p align="center">
+  <img src="img/real_prediccion_auto.png" width="600" alt="Resultados del modelo">
+</p>
+
 
 ## 💻 Notas de Implementación (Tips Técnicos)
 ### Compatibilidad en Windows
