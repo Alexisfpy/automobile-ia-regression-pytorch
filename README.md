@@ -95,7 +95,7 @@ sudo apt install python3-venv
 Abre tu terminal y descarga el código:
 
 ```bash
-git clone [https://github.com/Alexisfpy/automobile-ia-regression-pytorch.git(https://github.com/Alexisfpy/automobile-ia-regression-pytorch.git)
+git clone https://github.com/Alexisfpy/automobile-ia-regression-pytorch.git
 
 cd automobile-ia-regression-pytorch
 
